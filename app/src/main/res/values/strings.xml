@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Guia Turistica</string>
+    <string name="txt_bienvenida">BIENVENIDOS</string>
+    <string name="txtWelcome">WELCOME</string>
+    <string name="bt_monumento">MONUMENTOS</string>
+    <string name="bt_museo">MUSEOS</string>
+    <string name="bt_galeria">GALERIAS</string>
+    <string name="bt_plazas">PLAZAS</string>
+    <string name="bt_artistas">ARTISTAS</string>
+    <string name="bt_parque">PARQUES</string>
+    <string name="txt_titulo2"> TRAVEL</string>
+    <string name="txt_titulo4">SANTA CRUZ</string>
+</resources>

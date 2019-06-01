@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="800dp"
+    android:layout_height="800dp"
+    android:background="@drawable/catedral"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Bienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/cuadrado"
+        android:text="@string/txt_bienvenida"
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/cuadrado"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="@string/txtWelcome"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bienvenida" />
+</android.support.constraint.ConstraintLayout>
