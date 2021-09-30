@@ -2,10 +2,19 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="800dp"
-    android:layout_height="800dp"
-    android:background="@drawable/catedral"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/catedral"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/Bienvenida"
@@ -15,9 +24,9 @@
         android:layout_marginLeft="64dp"
         android:layout_marginTop="64dp"
         android:background="@drawable/cuadrado"
-        android:text="@string/txt_bienvenida"
-        android:paddingRight="4dp"
         android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="@string/txt_bienvenida"
         android:textColor="#ffffff"
         android:textSize="40sp"
         app:layout_constraintStart_toStartOf="parent"
